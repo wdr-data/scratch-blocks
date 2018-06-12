@@ -257,7 +257,7 @@ Blockly.createDom_ = function(container, options) {
   options.replacementGlowFilterId = replacementGlowFilter.id;
   options.disabledPatternId = disabledPattern.id;
 
-  options.gridPattern = Blockly.Grid.createDom(rnd, options.gridOptions, defs);
+  options.gridPattern = null;
   return svg;
 };
 

@@ -108,8 +108,7 @@ Blockly.WorkspaceSvg = function(options, opt_blockDragSurface, opt_wsDragSurface
    * @type {Blockly.Grid}
    * @private
    */
-  this.grid_ = this.options.gridPattern ?
-      new Blockly.Grid(options.gridPattern, options.gridOptions) : null;
+  this.grid_ =  null;
 
   this.registerToolboxCategoryCallback(Blockly.VARIABLE_CATEGORY_NAME,
       Blockly.DataCategory);
