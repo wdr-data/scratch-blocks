@@ -186,9 +186,9 @@ Blockly.Blocks['control_stop'] = {
           ['other scripts in sprite', OTHER_SCRIPTS]
         ];
       }
-      return [['all', ALL_SCRIPTS],
-        ['this script', THIS_SCRIPT],
-        ['other scripts in sprite', OTHER_SCRIPTS]
+      return [['alles', ALL_SCRIPTS],
+        ['dieses Skript', THIS_SCRIPT],
+        ['andere Skripte der Figur', OTHER_SCRIPTS]
       ];
     }, function(option) {
       // Create an event group to keep field value and mutator in sync
@@ -204,7 +204,7 @@ Blockly.Blocks['control_stop'] = {
       return null;
     });
     this.appendDummyInput()
-        .appendField('stop')
+        .appendField('Stoppe')
         .appendField(stopDropdown, 'STOP_OPTION');
     this.setCategory(Blockly.Categories.control);
     this.setColour(Blockly.Colours.control.primary,

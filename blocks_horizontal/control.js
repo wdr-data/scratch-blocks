@@ -159,7 +159,7 @@ Blockly.Blocks['control_stop'] = {
           "src": Blockly.mainWorkspace.options.pathToMedia + "icons/control_stop.svg",
           "width": 40,
           "height": 40,
-          "alt": "Stop"
+          "alt": "Stopp"
         }
       ],
       "inputsInline": true,
