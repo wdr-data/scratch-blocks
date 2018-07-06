@@ -680,13 +680,24 @@ Blockly.Toolbox.Category.prototype.dispose = function() {
   this.contents_ = null;
 };
 
+Blockly.Toolbox.Category.prototype.getMenuItemClassName = function(selected) {
+  const classNames = [
+    'scratchCategoryMenuItem',
+    'scratchCategoryId-' + this.id_,
+  ];
+  if (selected) {
+    classNames.push('categorySelected');
+  }
+  return classNames.join(' ');
+}
+
 /**
  * Create the DOM for a category in the toolbox.
  */
 Blockly.Toolbox.Category.prototype.createDom = function() {
   var toolbox = this.parent_.parent_;
   this.item_ = goog.dom.createDom('div',
-      {'class': 'scratchCategoryMenuItem'});
+      {'class': this.getMenuItemClassName()});
   this.label_ = goog.dom.createDom('div',
       {'class': 'scratchCategoryMenuItemLabel'}, this.name_);
   if (this.iconURI_) {
@@ -711,11 +722,7 @@ Blockly.Toolbox.Category.prototype.createDom = function() {
  * @param {boolean} selected Whether this category is selected.
  */
 Blockly.Toolbox.Category.prototype.setSelected = function(selected) {
-  if (selected) {
-    this.item_.className = 'scratchCategoryMenuItem categorySelected';
-  } else {
-    this.item_.className = 'scratchCategoryMenuItem';
-  }
+  this.item_.className = this.getMenuItemClassName(selected);
 };
 
 /**
