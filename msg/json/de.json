@@ -1,5 +1,5 @@
 {
-    "CONTROL_FOREVER": "fortlaufend",
+    "CONTROL_FOREVER": "für immer",
     "CONTROL_REPEAT": "wiederhole %1 mal",
     "CONTROL_IF": "falls %1 dann",
     "CONTROL_ELSE": "sonst",

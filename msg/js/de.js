@@ -5,7 +5,7 @@
 goog.provide('Blockly.Msg.en');
 goog.require('Blockly.Msg');
 
-Blockly.Msg["CONTROL_FOREVER"] = "fortlaufend";
+Blockly.Msg["CONTROL_FOREVER"] = "für immer";
 Blockly.Msg["CONTROL_REPEAT"] = "wiederhole %1 mal";
 Blockly.Msg["CONTROL_IF"] = "falls %1 dann";
 Blockly.Msg["CONTROL_ELSE"] = "sonst";
