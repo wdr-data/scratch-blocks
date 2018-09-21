@@ -256,5 +256,5 @@ Blockly.Msg["RENAME_LIST_TITLE"] = "Alle %1 umbenennen zu:";
 Blockly.Msg["RENAME_LIST_MODAL_TITLE"] = "Liste umbenennen";
 Blockly.Msg["NEW_BROADCAST_MESSAGE"] = "Neue Nachricht";
 Blockly.Msg["NEW_BROADCAST_MESSAGE_TITLE"] = "Name der neuen Nachricht:";
-Blockly.Msg["BROADCAST_MODAL_TITLE"] = "Neue Nachtricht";
+Blockly.Msg["BROADCAST_MODAL_TITLE"] = "Neue Nachricht";
 Blockly.Msg["DEFAULT_BROADCAST_MESSAGE_NAME"] = "Nachricht1";
