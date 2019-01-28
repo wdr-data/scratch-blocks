@@ -12,6 +12,7 @@ common.pyc
 *.pyc
 *.komodoproject
 /nbproject/private/
+yarn.lock
 
 # Unused by scratch-blocks
 dart_compressed.js

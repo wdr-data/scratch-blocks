@@ -2869,7 +2869,7 @@ Blockly.ScratchMsgs.locales["da"] =
 
 Blockly.ScratchMsgs.locales["de"] =
 {
-    "CONTROL_FOREVER": "wiederhole fortlaufend",
+    "CONTROL_FOREVER": "für immer",
     "CONTROL_REPEAT": "wiederhole %1 mal",
     "CONTROL_IF": "falls %1, dann",
     "CONTROL_ELSE": "sonst",
