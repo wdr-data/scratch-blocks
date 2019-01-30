@@ -2951,7 +2951,7 @@ Blockly.ScratchMsgs.locales["de"] =
     "LOOKS_CHANGESTRETCHBY": "ändere Dehnung um %1",
     "LOOKS_SETSTRETCHTO": "setze Dehnung auf %1 %",
     "LOOKS_SWITCHCOSTUMETO": "wechsle zu Kostüm %1",
-    "LOOKS_NEXTCOSTUME": "wechsle zum nächsten Kostüm",
+    "LOOKS_NEXTCOSTUME": "nächstes Kostüm",
     "LOOKS_SWITCHBACKDROPTO": "wechsle zu Bühnenbild %1",
     "LOOKS_GOTOFRONTBACK": "gehe zu %1 Ebene",
     "LOOKS_GOTOFRONTBACK_FRONT": "vorderster",
