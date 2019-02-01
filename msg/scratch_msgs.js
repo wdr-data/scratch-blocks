@@ -2970,7 +2970,7 @@ Blockly.ScratchMsgs.locales["de"] =
     "LOOKS_RANDOMBACKDROP": "zufälliges Bühnenbild",
     "MOTION_MOVESTEPS": "gehe %1 er Schritt",
     "MOTION_TURNLEFT": "drehe dich nach %1 um %2 Grad",
-    "MOTION_TURNRIGHT": "drehe dich nach it status%1 um %2 Grad",
+    "MOTION_TURNRIGHT": "drehe dich nach %1 um %2 Grad",
     "MOTION_POINTINDIRECTION": "setze Richtung auf %1 Grad",
     "MOTION_POINTTOWARDS": "drehe dich zu %1",
     "MOTION_POINTTOWARDS_POINTER": "Mauszeiger",
